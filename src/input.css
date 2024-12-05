@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    img {
+        @apply max-w-full;
+    }
+
+    ul,
+    ol,
+    li {
+        @apply list-none;
+    }
+
+    body {
+        @apply font-sans bg-[hsl(217,28%,15%)];
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .cta,
+    .list-item {
+        @apply font-raleway;
+    }
+
+    p {
+        @apply leading-[1.8];
+    }
+
+    .btn {
+        @apply font-bold bg-[hsl(176,68%,64%)] text-white px-8 py-2.5 rounded-full block mx-auto;
+    }
+
+    .attribution {
+        @apply text-xs text-center;
+    }
+
+    .attribution a {
+        @apply text-[hsl(228,50%,60%)];
+    }
+
+
+
+}
